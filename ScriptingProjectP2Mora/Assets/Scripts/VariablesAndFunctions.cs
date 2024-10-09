@@ -19,7 +19,10 @@ public class VariablesAndFunctions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //if our gameobjects y value is below 5 we want to show a message on the console
+        if(transform.position.y <= 5f)
+            {
+            Debug.Log("I'm about to hit the ground)
     }
 
     int MultiplyByTwo(int number)
