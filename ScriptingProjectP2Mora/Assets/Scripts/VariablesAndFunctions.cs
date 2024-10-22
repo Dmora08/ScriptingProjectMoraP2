@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Globalization;
 using UnityEngine;
 
 public class VariablesAndFunctions : MonoBehaviour
@@ -20,11 +19,11 @@ public class VariablesAndFunctions : MonoBehaviour
     void Update()
     {
         //if our gameobjects y value is below 5 we want to show a message on the console
-        if(transform.position.y <= 5f)
-            {
-            Debug.Log("I'm about to hit the ground)
+        if (transform.position.y <= 5f)
+        {
+            Debug.Log("I'm about to hit the ground");
+        }
     }
-
     int MultiplyByTwo(int number)
     {
         int result;
