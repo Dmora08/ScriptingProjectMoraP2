@@ -9,7 +9,7 @@ public class IfStatements : MonoBehaviour
     float coldLimitTemperature = 40.0f;
     
 
-    void update()
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
             TemperatureTest();
